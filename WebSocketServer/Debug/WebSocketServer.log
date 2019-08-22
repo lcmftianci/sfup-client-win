@@ -1,0 +1,4 @@
+﻿  telemetry_server.cpp
+d:\vsproject\sfup\websocketserver\telemetry_server.cpp(146): warning C4244: “参数”: 从“std::streamoff”转换到“unsigned int”，可能丢失数据
+  WebSocketServer.vcxproj -> D:\VSProject\sfup\Debug\WebSocketServer.exe
+  WebSocketServer.vcxproj -> D:\VSProject\sfup\Debug\WebSocketServer.pdb (Full PDB)
