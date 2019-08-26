@@ -31,22 +31,11 @@
     <ClCompile Include="ThreadPool.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Include\ByteBuffer.h" />
-    <ClInclude Include="..\..\Include\Common.h" />
-    <ClInclude Include="..\..\Include\Endianness.h" />
-    <ClInclude Include="..\..\Include\Logger.h" />
-    <ClInclude Include="..\..\Include\LoggerListeners.h" />
-    <ClInclude Include="..\..\Include\OSSupport\CriticalSection.h" />
-    <ClInclude Include="..\..\Include\OSSupport\Errors.h" />
-    <ClInclude Include="..\..\Include\OSSupport\Event.h" />
-    <ClInclude Include="..\..\Include\OSSupport\File.h" />
-    <ClInclude Include="..\..\Include\OSSupport\GZipFile.h" />
-    <ClInclude Include="..\..\Include\OSSupport\IsThread.h" />
-    <ClInclude Include="..\..\Include\OSSupport\Queue.h" />
-    <ClInclude Include="..\..\Include\OSSupport\StackTrace.h" />
-    <ClInclude Include="..\..\Include\OSSupport\ThreadPool.h" />
-    <ClInclude Include="..\..\Include\StackWalker.h" />
-    <ClInclude Include="..\..\Include\StringUtils.h" />
+    <ClInclude Include="..\Include\ByteBuffer.h" />
+    <ClInclude Include="..\Include\Common.h" />
+    <ClInclude Include="..\Include\Endianness.h" />
+    <ClInclude Include="..\Include\Logger.h" />
+    <ClInclude Include="..\Include\LoggerListeners.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
@@ -98,18 +87,24 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;COMMON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>.;$(BOOST);$(SolutionDir)\Include;$(SolutionDir)\Include\OSSupport;$(SolutionDir)\ThirdParty;$(SolutionDir)\ThirdParty\srtp\include;$(SolutionDir)\ThirdParty\libnice-0.1.4;$(SolutionDir)\ThirdParty\srtp\crypto\include;$(SolutionDir)\ThirdParty\libnice-0.1.4\agent;$(SolutionDir)\ThirdParty\glib2.0\include\glib-2.0;$(SolutionDir)\ThirdParty\glib2.0\lib\glib-2.0\include;$(SolutionDir)\log4z;$(SolutionDir)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;$(SolutionDir)Include\OSSupport;$(SolutionDir)ThirdParty;$(SolutionDir)ThirdParty\srtp\include;$(SolutionDir)ThirdParty\libnice-0.1.4;$(SolutionDir)ThirdParty\srtp\crypto\include;$(SolutionDir)ThirdParty\libnice-0.1.4\agent;$(SolutionDir)ThirdParty\glib2.0\include\glib-2.0;$(SolutionDir)ThirdParty\glib2.0\lib\glib-2.0\include;$(SolutionDir)log4z;$(SolutionDir);$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <CallingConvention>Cdecl</CallingConvention>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(BOOST)stage\lib;$(SolutionDir)\Debug;$(SolutionDir)\Lib\$(Configuration)\;$(SolutionDir)\ThirdParty\glib2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Debug;$(SolutionDir)Lib\$(Configuration);$(SolutionDir)ThirdParty\glib2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ImportLibrary>$(SolutionDir)\Lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

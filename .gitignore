@@ -14,3 +14,22 @@ doc/**/*.txt
 local.properties #过滤具体文件
 ！local.properties#添加具体文件
 *.[oa]#忽略所有以 .o 或 .a 结尾的文件
+
+thirdparty/polarssl/visualc/VS2013/
+zlib/Debug
+srtp/Debug
+sfup.VC.VC.opendb
+sfup.VC.db
+log4z/Debug
+ipch
+WebSocketServer/
+WebSocketClient
+Lib
+DuiLib/Debug
+IntDir
+Client/Debug
+Debug
+glib/build/win32/vs10/Debug
+.vs
+zlib/Debug
+glib/build/win32/vs10/Debug

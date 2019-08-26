@@ -1,6 +1,6 @@
 #include "stdafx.h"  // NOTE: MSVC stupidness requires this to be the same across all modules
 #include "Logger.h"
-
+#include <iostream>
 #include "OSSupport/IsThread.h"
 #ifdef _WIN32
 	#include <time.h>
@@ -17,7 +17,7 @@ void cLogger::InitiateMultithreading()
 	GetInstance();
 }
 
-void cLogger::LogSimple(AString a_Message, eLogLevel a_LogLevel)
+void cLogger::LogSimple(std::string a_Message, eLogLevel a_LogLevel)
 {
 	time_t rawtime;
 	time(&rawtime);

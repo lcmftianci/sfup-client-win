@@ -5,6 +5,10 @@
 #include "Endianness.h"
 #include "OSSupport/IsThread.h"
 
+#ifdef _WIN32
+#pragma comment(lib,"ws2_32.lib")
+#endif
+
 /** When defined, each access to a cByteBuffer object is checked whether it's done in the same thread.
 cByteBuffer assumes that it is not used by multiple threads at once, this macro adds a runtime check for that.
 Unfortunately it is very slow, so it is disabled even for regular DEBUG builds. */

@@ -1,1 +1,429 @@
-﻿
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (glib.vcxproj, gmodule.vcxproj, gobject.vcxproj, gthread.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Generating gio.def
+  系统找不到指定的路径。
+  gwinhttpvfs.c
+  gwinhttpfileoutputstream.c
+  gwinhttpfileinputstream.c
+  gwinhttpfile.c
+  gwin32directorymonitor.c
+  gwin32appinfo.c
+  gregistrysettingsbackend.c
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1158): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1161): warning C4018: “>=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1372): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1393): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1467): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1472): warning C4018: “>=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gregistrysettingsbackend.c(1511): warning C4018: “<”: 有符号/无符号不匹配
+  gzlibdecompressor.c
+  gzlibcompressor.c
+  gwin32volumemonitor.c
+  gwin32resolver.c
+  gwin32outputstream.c
+  gwin32mount.c
+  gwin32inputstream.c
+  gvolumemonitor.c
+  gvolume.c
+  gvfs.c
+  gvdb-reader.c
+  gunionvolumemonitor.c
+  gtlsserverconnection.c
+  正在生成代码...
+d:\vsproject\sfup-client-win\glib\gio\gzlibcompressor.c(431): warning C4715: “g_zlib_compressor_convert”: 不是所有的控件路径都返回值
+  正在编译...
+  gtlsconnection.c
+  gtlsclientconnection.c
+  gtlscertificate.c
+  gtlsbackend.c
+  gthreadedsocketservice.c
+  gthreadedresolver.c
+  gthemedicon.c
+  gtcpwrapperconnection.c
+  gtcpconnection.c
+  gsrvtarget.c
+  gsocks5proxy.c
+  gsocks4proxy.c
+  gsocks4aproxy.c
+  gsocketservice.c
+  gsocketoutputstream.c
+  gsocketlistener.c
+d:\vsproject\sfup-client-win\glib\gio\gsocketlistener.c(515): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gsocketlistener.c(893): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gsocketlistener.c(919): warning C4018: “<”: 有符号/无符号不匹配
+  gsocketinputstream.c
+  gsocketcontrolmessage.c
+d:\vsproject\sfup-client-win\glib\gio\gsocketcontrolmessage.c(193): warning C4018: “<”: 有符号/无符号不匹配
+  gsocketconnection.c
+  gsocketconnectable.c
+  正在生成代码...
+  正在编译...
+  gsocketclient.c
+  gsocket.c
+  gsocketaddressenumerator.c
+  gsocketaddress.c
+  gsimplepermission.c
+  gsimpleasyncresult.c
+d:\vsproject\sfup-client-win\glib\gio\gsimpleasyncresult.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  gsimpleactiongroup.c
+  gsimpleaction.c
+  gsettingsschema.c
+d:\vsproject\sfup-client-win\glib\gio\gsettingsschema.c(151): warning C4090: “函数”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\gio\gsettingsschema.c(157): warning C4090: “函数”: 不同的“const”限定符
+  gsettings-mapping.c
+  gsettings.c
+  gsettingsbackend.c
+d:\vsproject\sfup-client-win\glib\gio\gsettingsbackend.c(698): warning C4090: “函数”: 不同的“const”限定符
+  gseekable.c
+  gresolver.c
+  gproxyresolver.c
+  gproxy.c
+  gproxyaddressenumerator.c
+  gproxyaddress.c
+  gpollfilemonitor.c
+  gpollableoutputstream.c
+  正在生成代码...
+  正在编译...
+  gpollableinputstream.c
+  gpermission.c
+  goutputstream.c
+  gnullsettingsbackend.c
+  gnetworkservice.c
+  gnetworkaddress.c
+  gnativevolumemonitor.c
+  gmountoperation.c
+d:\vsproject\sfup-client-win\glib\gio\gmountoperation.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  gmount.c
+  gmemorysettingsbackend.c
+  gmemoryoutputstream.c
+  gmemoryinputstream.c
+  glocalvfs.c
+  glocalfileoutputstream.c
+  glocalfilemonitor.c
+d:\vsproject\sfup-client-win\glib\gio\glocalfilemonitor.c(89): warning C4018: “<”: 有符号/无符号不匹配
+  glocalfileiostream.c
+  glocalfileinputstream.c
+  glocalfileinfo.c
+  glocalfileenumerator.c
+  glocalfile.c
+  正在生成代码...
+  正在编译...
+  glocaldirectorymonitor.c
+d:\vsproject\sfup-client-win\glib\gio\glocaldirectorymonitor.c(107): warning C4018: “<”: 有符号/无符号不匹配
+  gloadableicon.c
+  gkeyfilesettingsbackend.c
+  giostream.c
+  gioscheduler.c
+  giomodule.c
+  gio-marshal.c
+  gioerror.c
+  gioenumtypes.c
+  ginputstream.c
+  ginitable.c
+  ginetsocketaddress.c
+  ginetaddress.c
+  gicon.c
+d:\vsproject\sfup-client-win\glib\gio\gicon.c(157): warning C4018: “<”: 有符号/无符号不匹配
+  gfilteroutputstream.c
+  gfilterinputstream.c
+  gfileoutputstream.c
+  gfilenamecompleter.c
+  gfilemonitor.c
+d:\vsproject\sfup-client-win\glib\gio\gfilemonitor.c(701): warning C4018: “<”: 有符号/无符号不匹配
+  gfileiostream.c
+  正在生成代码...
+  正在编译...
+  gfileinputstream.c
+  gfileinfo.c
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(322): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(379): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(388): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(447): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(493): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(537): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(604): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(638): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(699): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(1075): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(2136): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(2332): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(2427): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileinfo.c(2476): warning C4018: “<”: 有符号/无符号不匹配
+  gfileicon.c
+  gfileenumerator.c
+  gfiledescriptorbased.c
+  gfile.c
+  gfileattribute.c
+d:\vsproject\sfup-client-win\glib\gio\gfileattribute.c(361): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gfileattribute.c(374): warning C4018: “<”: 有符号/无符号不匹配
+  gemblemedicon.c
+  gemblem.c
+  gdummytlsbackend.c
+  gdummyproxyresolver.c
+  gdummyfile.c
+d:\vsproject\sfup-client-win\glib\gio\gdummyfile.c(490): warning C4018: “<=”: 有符号/无符号不匹配
+  gdrive.c
+  gdelayedsettingsbackend.c
+d:\vsproject\sfup-client-win\glib\gio\gdelayedsettingsbackend.c(387): warning C4090: “函数”: 不同的“const”限定符
+  gdbusutils.c
+  gdbusserver.c
+  gdbusproxy.c
+  gdbusprivate.c
+d:\vsproject\sfup-client-win\glib\gio\gdbusprivate.c(1075): warning C4102: “out”: 未引用的标签
+  gdbusnamewatching.c
+  gdbusnameowning.c
+  正在生成代码...
+  正在编译...
+  gdbusmethodinvocation.c
+  gdbusmessage.c
+d:\vsproject\sfup-client-win\glib\gio\gdbusmessage.c(2113): warning C4267: “函数”: 从“size_t”转换到“guchar”，可能丢失数据
+d:\vsproject\sfup-client-win\glib\gio\gdbusmessage.c(3256): warning C4102: “out”: 未引用的标签
+  gdbusintrospection.c
+  gdbuserror.c
+  gdbusconnection.c
+  gdbusauthobserver.c
+  gdbusauthmechanismsha1.c
+d:\vsproject\sfup-client-win\glib\gio\gdbusauthmechanismsha1.c(330): warning C4018: “<”: 有符号/无符号不匹配
+  gdbusauthmechanismexternal.c
+  gdbusauthmechanism.c
+  gdbusauthmechanismanon.c
+  gdbusauth.c
+  gdbusaddress.c
+d:\vsproject\sfup-client-win\glib\gio\gdbusaddress.c(939): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  gdataoutputstream.c
+  gdatainputstream.c
+d:\vsproject\sfup-client-win\glib\gio\gdatainputstream.c(661): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gdatainputstream.c(837): warning C4018: “<”: 有符号/无符号不匹配
+  gcredentials.c
+  gconverteroutputstream.c
+  gconverterinputstream.c
+  gconverter.c
+  gcontenttype.c
+  gcharsetconverter.c
+  正在生成代码...
+d:\vsproject\sfup-client-win\glib\gio\gdbusauthmechanismexternal.c(359): warning C4700: 使用了未初始化的局部变量“initial_response”
+  正在编译...
+  gcancellable.c
+  gbufferedoutputstream.c
+d:\vsproject\sfup-client-win\glib\gio\gbufferedoutputstream.c(668): warning C4018: “<”: 有符号/无符号不匹配
+  gbufferedinputstream.c
+d:\vsproject\sfup-client-win\glib\gio\gbufferedinputstream.c(665): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gbufferedinputstream.c(668): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gbufferedinputstream.c(984): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gbufferedinputstream.c(987): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gbufferedinputstream.c(1095): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gio\gbufferedinputstream.c(1277): warning C4018: “<”: 有符号/无符号不匹配
+  gasyncresult.c
+  gasyncinitable.c
+  gasynchelper.c
+  gapplicationimpl-dbus.c
+  gapplicationcommandline.c
+  gapplication.c
+  gappinfo.c
+  gactiongroup.c
+  gaction.c
+  正在生成代码...
+gaction.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\VSProject\sfup-client-win\\Lib\Debug\gio-2.0.lib 和对象 D:\VSProject\sfup-client-win\\Lib\Debug\gio-2.0.exp
+  gio.vcxproj -> D:\VSProject\sfup-client-win\Debug\gio-2.0.dll
+  gio.vcxproj -> D:\VSProject\sfup-client-win\Debug\gio-2.0.pdb (Full PDB)
+  子目录或文件 ..\..\.\..\..\libnice\glib\include\glib-2.0\glib 已经存在。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  子目录或文件 ..\..\.\..\..\libnice\glib\include\glib-2.0\gobject 已经存在。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  子目录或文件 ..\..\.\..\..\libnice\glib\include\glib-2.0\gio 已经存在。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  子目录或文件 ..\..\.\..\..\libnice\glib\include\gio-win32-2.0\gio 已经存在。
+  已复制         1 个文件。
+  已复制         1 个文件。
+  子目录或文件 ..\..\.\..\..\libnice\glib\lib\glib-2.0\include 已经存在。
+  已复制         1 个文件。

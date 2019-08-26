@@ -1,1 +1,7 @@
-﻿
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (glib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  gthread-impl.c
+gthread-impl.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\VSProject\sfup-client-win\\Lib\Debug\gthread-2.0.lib 和对象 D:\VSProject\sfup-client-win\\Lib\Debug\gthread-2.0.exp
+gthread-impl.obj : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“gthread-impl.obj”或在“D:\VSProject\sfup-client-win\Debug\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  gthread.vcxproj -> D:\VSProject\sfup-client-win\Debug\gthread-2.0.dll
+  gthread.vcxproj -> D:\VSProject\sfup-client-win\Debug\gthread-2.0.pdb (Full PDB)

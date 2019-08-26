@@ -1,7 +1,7 @@
 // StringUtils.h
 // Interfaces to various string helper functions
-
 #pragma once
+
 #include <string>
 #include <limits>
 
@@ -18,7 +18,7 @@ COMMON_API AString & AppendVPrintf(AString & a_Dst, const char * format, va_list
 
 /** Output the formatted text into the string.
 Returns a_Dst. */
-COMMON_API AString & Printf       (AString & a_Dst, const char * format, ...) FORMATSTRING(2, 3);
+COMMON_API AString & Printf  (AString & a_Dst, const char * format, ...) FORMATSTRING(2, 3);
 
 /** Output the formatted text into string
 Returns the formatted string by value. */

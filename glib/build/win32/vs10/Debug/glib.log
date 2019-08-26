@@ -1,1 +1,199 @@
-﻿
+﻿  Generating glib.def
+  系统找不到指定的路径。
+  pcre_xclass.c
+  pcre_ucp_searchfuncs.c
+  pcre_try_flipped.c
+  pcre_tables.c
+  pcre_study.c
+  pcre_ord2utf8.c
+  pcre_newline.c
+  pcre_globals.c
+  pcre_get.c
+  pcre_fullinfo.c
+  pcre_exec.c
+  pcre_dfa_exec.c
+  pcre_config.c
+  pcre_compile.c
+  pcre_chartables.c
+  vasnprintf.c
+d:\vsproject\sfup-client-win\glib\glib\gnulib\vasnprintf.c(357): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+d:\vsproject\sfup-client-win\glib\glib\gnulib\vasnprintf.c(360): warning C4267: “=”: 从“size_t”转换到“short”，可能丢失数据
+d:\vsproject\sfup-client-win\glib\glib\gnulib\vasnprintf.c(1023): warning C4018: “>=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gnulib\vasnprintf.c(1030): warning C4018: “>=”: 有符号/无符号不匹配
+  printf.c
+  printf-parse.c
+  printf-args.c
+  asnprintf.c
+  正在生成代码...
+  正在编译...
+  gwin32.c
+  gspawn-win32.c
+  giowin32.c
+  gatomic.c
+  gprintf.c
+  gvarianttype.c
+d:\vsproject\sfup-client-win\glib\glib\gvarianttype.c(1340): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gvarianttype.c(1372): warning C4018: “<”: 有符号/无符号不匹配
+  gvarianttypeinfo.c
+d:\vsproject\sfup-client-win\glib\glib\gvarianttypeinfo.c(344): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gvarianttypeinfo.c(515): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  gvariant-serialiser.c
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(149): warning C4116: 括号中的未命名类型定义
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(151): warning C4116: 括号中的未命名类型定义
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(673): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(708): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(960): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  gvariant-parser.c
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1860): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1865): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1870): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1875): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1880): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1885): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gvariant-parser.c(1890): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  gvariant-core.c
+  gvariant.c
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(795): warning C4090: “函数”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(1350): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(1578): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(3787): warning C4090: “return”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(3795): warning C4090: “return”: 不同的“const”限定符
+  gutils.c
+d:\vsproject\sfup-client-win\glib\glib\gutils.c(2790): warning C4028: 形参 1 与声明不同
+  gurifuncs.c
+  gunidecomp.c
+  gunicollate.c
+  gunibreak.c
+  gutf8.c
+d:\vsproject\sfup-client-win\glib\glib\gutf8.c(450): warning C4090: “函数”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\glib\gutf8.c(454): warning C4090: “函数”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\glib\gutf8.c(765): warning C4018: “>”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gutf8.c(767): warning C4018: “<”: 有符号/无符号不匹配
+  guniprop.c
+  gtree.c
+  gtimezone.c
+  正在生成代码...
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(2336): warning C4715: “g_variant_hash”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(2506): warning C4715: “g_variant_compare”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(4682): warning C4715: “g_variant_deep_copy”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(3906): warning C4715: “g_variant_valist_new_leaf”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(3758): warning C4715: “g_variant_valist_new_nnp”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant.c(3824): warning C4715: “g_variant_valist_get_nnp”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(1320): warning C4715: “g_variant_serialised_n_children”: 不是所有的控件路径都返回值
+d:\vsproject\sfup-client-win\glib\glib\gvariant-serialiser.c(1435): warning C4715: “g_variant_serialiser_needed_size”: 不是所有的控件路径都返回值
+  正在编译...
+  gtimer.c
+  gthreadpool.c
+d:\vsproject\sfup-client-win\glib\glib\gthreadpool.c(159): warning C4018: “>=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gthreadpool.c(803): warning C4018: “<”: 有符号/无符号不匹配
+  gthread.c
+d:\vsproject\sfup-client-win\glib\glib\gthread.c(361): warning C4113: “GMutex *(__cdecl *)()”和“GMutex *(__cdecl *)(void)”的参数列表不同
+d:\vsproject\sfup-client-win\glib\glib\gthread.c(361): warning C4113: “GCond *(__cdecl *)()”和“GCond *(__cdecl *)(void)”的参数列表不同
+  gtestutils.c
+d:\vsproject\sfup-client-win\glib\glib\gtestutils.c(1213): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gtestutils.c(1280): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gtestutils.c(1554): warning C4018: “<”: 有符号/无符号不匹配
+  gstring.c
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(707): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(723): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(727): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(729): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(734): warning C4018: “>”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(746): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1035): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1062): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1065): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1137): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1140): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1249): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1255): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gstring.c(1257): warning C4018: “<”: 有符号/无符号不匹配
+  gstrfuncs.c
+d:\vsproject\sfup-client-win\glib\glib\gstrfuncs.c(865): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\glib\gstrfuncs.c(2772): warning C4018: “<”: 有符号/无符号不匹配
+  gstdio.c
+  gslist.c
+  gslice.c
+d:\vsproject\sfup-client-win\glib\glib\gslice.c(597): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  gshell.c
+  gsequence.c
+  gscanner.c
+  gregex.c
+  grand.c
+d:\vsproject\sfup-client-win\glib\glib\grand.c(394): warning C4018: “>=”: 有符号/无符号不匹配
+  grel.c
+  gqueue.c
+d:\vsproject\sfup-client-win\glib\glib\gqueue.c(321): warning C4018: “>=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gqueue.c(426): warning C4018: “>=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gqueue.c(712): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gqueue.c(718): warning C4018: “<”: 有符号/无符号不匹配
+  gqsort.c
+d:\vsproject\sfup-client-win\glib\glib\gqsort.c(239): warning C4005: “min”: 宏重定义
+  d:\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1283): note: 参见“min”的前一个定义
+  gprimes.c
+d:\vsproject\sfup-client-win\glib\glib\gprimes.c(81): warning C4018: “<”: 有符号/无符号不匹配
+  gpoll.c
+d:\vsproject\sfup-client-win\glib\glib\gpoll.c(246): warning C4018: “<”: 有符号/无符号不匹配
+  gpattern.c
+  正在生成代码...
+  正在编译...
+  goption.c
+d:\vsproject\sfup-client-win\glib\glib\goption.c(688): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\goption.c(700): warning C4018: “<”: 有符号/无符号不匹配
+  gnode.c
+  gmessages.c
+  gmem.c
+  gmarkup.c
+d:\vsproject\sfup-client-win\glib\glib\gmarkup.c(736): warning C4018: “<=”: 有符号/无符号不匹配
+  gmappedfile.c
+  gmain.c
+d:\vsproject\sfup-client-win\glib\glib\gmain.c(2728): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gmain.c(4250): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  glist.c
+  gkeyfile.c
+  giochannel.c
+d:\vsproject\sfup-client-win\glib\glib\giochannel.c(2302): warning C4018: “<”: 有符号/无符号不匹配
+  ghostutils.c
+d:\vsproject\sfup-client-win\glib\glib\ghostutils.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\vsproject\sfup-client-win\glib\glib\ghostutils.c(134): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\ghostutils.c(151): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\ghostutils.c(154): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\ghostutils.c(165): warning C4018: “<”: 有符号/无符号不匹配
+  ghook.c
+  ghash.c
+  gfileutils.c
+d:\vsproject\sfup-client-win\glib\glib\gfileutils.c(936): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\gfileutils.c(1015): warning C4102: “no_fsync”: 未引用的标签
+  gerror.c
+  gdir.c
+d:\vsproject\sfup-client-win\glib\build\win32\dirent\dirent.c(213): warning C4267: “=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+  gdatetime.c
+  gdate.c
+d:\vsproject\sfup-client-win\glib\glib\gdate.c(1782): warning C4018: “<=”: 有符号/无符号不匹配
+  gdataset.c
+  gconvert.c
+d:\vsproject\sfup-client-win\glib\glib\gconvert.c(1172): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+d:\vsproject\sfup-client-win\glib\glib\giochannel.c(300): warning C4715: “g_io_error_get_from_g_error”: 不是所有的控件路径都返回值
+  正在编译...
+  gcompletion.c
+  gchecksum.c
+d:\vsproject\sfup-client-win\glib\glib\gchecksum.c(166): warning C4018: “<”: 有符号/无符号不匹配
+  gcache.c
+  gbuffer.c
+  gbookmarkfile.c
+  gbitlock.c
+  gbase64.c
+  gbacktrace.c
+  gasyncqueue.c
+  garray.c
+d:\vsproject\sfup-client-win\glib\glib\garray.c(669): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\garray.c(994): warning C4018: “>”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\glib\garray.c(1007): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  localcharset.c
+garray.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\VSProject\sfup-client-win\\Lib\Debug\glib-2.0.lib 和对象 D:\VSProject\sfup-client-win\\Lib\Debug\glib-2.0.exp
+  glib.vcxproj -> D:\VSProject\sfup-client-win\Debug\glib-2.0.dll
+  glib.vcxproj -> D:\VSProject\sfup-client-win\Debug\glib-2.0.pdb (Full PDB)

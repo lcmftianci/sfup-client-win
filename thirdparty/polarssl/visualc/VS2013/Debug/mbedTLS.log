@@ -1,1 +1,84 @@
-﻿
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (pk_encrypt.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  xtea.c
+  x509write_csr.c
+  x509write_crt.c
+  x509_csr.c
+  x509_crt.c
+  x509_crl.c
+  x509_create.c
+  x509.c
+  version_features.c
+  version.c
+  timing.c
+  threading.c
+  ssl_tls.c
+d:\vsproject\sfup-client-win\thirdparty\polarssl\library\ssl_tls.c(1490): warning C4267: “初始化”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  ssl_srv.c
+d:\vsproject\sfup-client-win\thirdparty\polarssl\library\ssl_srv.c(2954): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ssl_cli.c
+  ssl_ciphersuites.c
+  ssl_cache.c
+  sha512.c
+  sha256.c
+  sha1.c
+  正在生成代码...
+  正在编译...
+  rsa.c
+d:\vsproject\sfup-client-win\thirdparty\polarssl\library\rsa.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ripemd160.c
+  platform.c
+  pkwrite.c
+  pkparse.c
+  pkcs5.c
+  pkcs12.c
+  pkcs11.c
+  pk_wrap.c
+  pk.c
+  pem.c
+  pbkdf2.c
+  padlock.c
+  oid.c
+  net.c
+  memory_buffer_alloc.c
+  md_wrap.c
+  md5.c
+  md4.c
+  md2.c
+  正在生成代码...
+  正在编译...
+  md.c
+  hmac_drbg.c
+  havege.c
+  gcm.c
+  error.c
+  entropy_poll.c
+  entropy.c
+  ecp_curves.c
+  ecp.c
+  ecdsa.c
+  ecdh.c
+  dhm.c
+d:\vsproject\sfup-client-win\thirdparty\polarssl\library\dhm.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  des.c
+  debug.c
+  ctr_drbg.c
+  cipher_wrap.c
+  cipher.c
+  certs.c
+  ccm.c
+d:\vsproject\sfup-client-win\thirdparty\polarssl\library\ccm.c(141): warning C4267: “初始化”: 从“size_t”转换到“unsigned char”，可能丢失数据
+d:\vsproject\sfup-client-win\thirdparty\polarssl\library\ccm.c(255): warning C4267: “初始化”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  camellia.c
+  正在生成代码...
+  正在编译...
+  blowfish.c
+  bignum.c
+  base64.c
+  asn1write.c
+  asn1parse.c
+  arc4.c
+  aesni.c
+  aes.c
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(D:\VSProject\sfup-client-win\Debug\mbedTLS.lib) does not match the Library's OutputFile property value (D:\VSProject\sfup-client-win\Lib\Debug\mbedTLS.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  mbedTLS.vcxproj -> D:\VSProject\sfup-client-win\Debug\mbedTLS.lib

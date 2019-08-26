@@ -1,1 +1,25 @@
-﻿
+﻿  stdafx.cpp
+  ThreadPool.cpp
+  StringUtils.cpp
+  StackWalker.cpp
+d:\vsproject\sfup-client-win\include\stackwalker.h(142): warning C4091: “typedef ”: 没有声明变量时忽略“StackWalker::CallstackEntryType”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+d:\vsproject\sfup-client-win\common\stackwalker.cpp(462): warning C4091: “typedef ”: 没有声明变量时忽略“StackWalkerInternal::IMAGEHLP_MODULE64_V2”的左侧
+  StackTrace.cpp
+d:\vsproject\sfup-client-win\include\stackwalker.h(142): warning C4091: “typedef ”: 没有声明变量时忽略“StackWalker::CallstackEntryType”的左侧
+  IsThread.cpp
+  GZipFile.cpp
+  File.cpp
+  Event.cpp
+  Errors.cpp
+  CriticalSection.cpp
+  LoggerListeners.cpp
+  Logger.cpp
+  common.cpp
+  ByteBuffer.cpp
+  正在生成代码...
+ByteBuffer.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\VSProject\sfup-client-win\\Lib\Debug\Common.lib 和对象 D:\VSProject\sfup-client-win\\Lib\Debug\Common.exp
+  Common.vcxproj -> D:\VSProject\sfup-client-win\Debug\Common.dll
+  Common.vcxproj -> D:\VSProject\sfup-client-win\Debug\Common.pdb (Full PDB)

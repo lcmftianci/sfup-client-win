@@ -1,1 +1,44 @@
-﻿
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (glib.vcxproj, gmodule.vcxproj, gthread.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Generating gobject.def
+  系统找不到指定的路径。
+  gvaluetypes.c
+  gvaluetransform.c
+  Check if cast from uint64 to double is supported with msvc 6.0
+  gvaluearray.c
+  gvalue.c
+  gtypeplugin.c
+  gtypemodule.c
+  gtype.c
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(491): warning C4090: “函数”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(580): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(1259): warning C4018: “<=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(1350): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(1743): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(2109): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(2120): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(4475): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(4526): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(4539): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(4589): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(4622): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsproject\sfup-client-win\glib\gobject\gtype.c(4635): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  gsourceclosure.c
+  gsignal.c
+  gparamspecs.c
+  gparam.c
+d:\vsproject\sfup-client-win\glib\gobject\gparam.c(429): warning C4090: “=”: 不同的“const”限定符
+  gobject.c
+d:\vsproject\sfup-client-win\glib\gobject\gobject.c(549): warning C4018: “<”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\glib\gobject\gobject.c(1152): warning C4090: “=”: 不同的“const”限定符
+  genums.c
+  gclosure.c
+  gboxed.c
+  gbinding.c
+d:\vsproject\sfup-client-win\glib\gobject\gbinding.c(482): warning C4090: “=”: 不同的“const”限定符
+d:\vsproject\sfup-client-win\glib\gobject\gbinding.c(490): warning C4090: “=”: 不同的“const”限定符
+  gatomicarray.c
+  正在生成代码...
+gatomicarray.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\VSProject\sfup-client-win\\Lib\Debug\gobject-2.0.lib 和对象 D:\VSProject\sfup-client-win\\Lib\Debug\gobject-2.0.exp
+  gobject.vcxproj -> D:\VSProject\sfup-client-win\Debug\gobject-2.0.dll
+  gobject.vcxproj -> D:\VSProject\sfup-client-win\Debug\gobject-2.0.pdb (Full PDB)

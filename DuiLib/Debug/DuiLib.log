@@ -1,1 +1,57 @@
-﻿
+﻿  StdAfx.cpp
+d:\vsproject\sfup-client-win\duilib\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UIWebBrowser.cpp
+  UIText.cpp
+Control\UIText.cpp(52): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UISlider.cpp
+Control\UISlider.cpp(212): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIScrollBar.cpp
+  UIRichEdit.cpp
+  UIProgress.cpp
+  UIOption.cpp
+  UIList.cpp
+Control\UIList.cpp(1780): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+Control\UIList.cpp(2416): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UILabel.cpp
+  UIGifAnim.cpp
+  UIEdit.cpp
+Control\UIEdit.cpp(288): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIDateTime.cpp
+Control\UIDateTime.cpp(297): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UICombo.cpp
+  UICheckBox.cpp
+  UIButton.cpp
+Control\UIButton.cpp(127): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIVerticalLayout.cpp
+Layout\UIVerticalLayout.cpp(306): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UITileLayout.cpp
+  UITabLayout.cpp
+  UIHorizontalLayout.cpp
+Layout\UIHorizontalLayout.cpp(313): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIChildLayout.cpp
+  UIRender.cpp
+Core\UIRender.cpp(1188): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIMarkup.cpp
+  UIManager.cpp
+Core\UIManager.cpp(1042): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIDlgBuilder.cpp
+  UIControl.cpp
+Core\UIControl.cpp(831): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIContainer.cpp
+  UIBase.cpp
+  WndShadow.cpp
+  Utils.cpp
+  UIDelegate.cpp
+  WinImplBase.cpp
+  UIlib.cpp
+  UITreeView.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1193,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+    正在创建库 D:\VSProject\sfup-client-win\\Lib\Debug\DuiLib.lib 和对象 D:\VSProject\sfup-client-win\\Lib\Debug\DuiLib.exp
+  DuiLib.vcxproj -> D:\VSProject\sfup-client-win\Debug\DuiLib.dll
+  DuiLib.vcxproj -> D:\VSProject\sfup-client-win\Debug\DuiLib.pdb (Full PDB)

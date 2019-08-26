@@ -140,7 +140,7 @@ bool Conductor::Initialize() {
 	peer_connection_factory_ = webrtc::CreatePeerConnectionFactory();
 
 	if (!peer_connection_factory_.get()) {
-		main_wnd_->MessageBox("Error",	"Failed to initialize PeerConnectionFactory", true);
+		m_main_wnd->MessageBox("Error",	"Failed to initialize PeerConnectionFactory", true);
 		return false;
 	}
 
@@ -177,7 +177,7 @@ bool Conductor::CreatePeerConnection(UInt32 id, bool dtls)
 		constraints.AddOptional(webrtc::MediaConstraintsInterface::kEnableDtlsSrtp,	"false");
 	}
 	constraints.AddOptional(webrtc::MediaConstraintsInterface::kIceRestart, "true");
-	bool bSelf = id == client_->GetID();
+	bool bSelf = id == m_client->GetID();
 
 	rtc::scoped_refptr<PCObserver> pcObserver(new rtc::RefCountedObject<PCObserver>(id, this, bSelf));
 
@@ -188,7 +188,7 @@ bool Conductor::CreatePeerConnection(UInt32 id, bool dtls)
 	peer_connections_[id] = peer_connection;
 	pcObservers_[id] = pcObserver;
 
-	if (id ==client_->GetID())
+	if (id == m_client->GetID())
 	{
 		AddStreams();
 
@@ -202,13 +202,13 @@ bool Conductor::CreatePeerConnection(UInt32 id, bool dtls)
 
 void Conductor::DeletePeerConnection(UInt32 id) {
 
-	if (id == client_->GetID())
+	if (id == m_client->GetID())
 	{
 		active_stream_ = nullptr;
 
 		for (auto &it: peer_connections_)
 		{
-			main_wnd_->OnUserLeftChannel(client_->GetChannel(), it.first);
+			m_main_wnd->OnUserLeftChannel(m_client->GetChannel(), it.first);
 			it.second->Close();
 			it.second = nullptr;
 		}
@@ -265,7 +265,7 @@ void Conductor::AddStreams()
 			kVideoLabel,
 			peer_connection_factory_->CreateVideoSource(video, &constraints)));
 
-		rtc::scoped_refptr<PCObserver> pc = pcObservers_[client_->GetID()];
+		rtc::scoped_refptr<PCObserver> pc = pcObservers_[m_client->GetID()];
 		if (pc)
 		{
 			pc->StartRenderer(video_track);  //设置本地显示
@@ -353,49 +353,49 @@ cricket::VideoCapturer* Conductor::OpenDesktopCaptureDevice()
 
 HWND Conductor::handle()
 {
-	return main_wnd_->handle();
+	return m_main_wnd->handle();
 }
 
 void Conductor::OnSignedIn()
 {
-	main_wnd_->OnSignedIn();
+	m_main_wnd->OnSignedIn();
 }
 
 void Conductor::OnLoginError()
 {
-	client_->SignOut();
+	m_client->SignOut();
 }
 
 void Conductor::OnDisconnected()
 {
-	main_wnd_->OnDisconnected();
+	m_main_wnd->OnDisconnected();
 }
 
 void Conductor::OnMessageSent(int err)
 {
 	// Process the next pending a_Msg if any.
-	main_wnd_->QueueUIThreadCallback(SEND_MESSAGE_TO_PEER, NULL);
+	m_main_wnd->QueueUIThreadCallback(SEND_MESSAGE_TO_PEER, NULL);
 }
 
 void Conductor::OnJoinedChannel(const AString &room)
 {
-	if (CreatePeerConnection(client_->GetID(), DTLS_ON))
+	if (CreatePeerConnection(m_client->GetID(), DTLS_ON))
 	{
-		main_wnd_->OnJoinChannel(room, client_->GetID());
+		m_main_wnd->OnJoinChannel(room, m_client->GetID());
 	}
 }
 
 void Conductor::OnLeaveChannel(const AString &room)
 {
-	DeletePeerConnection(client_->GetID());
-	main_wnd_->OnLeftChannel(room);
+	DeletePeerConnection(m_client->GetID());
+	m_main_wnd->OnLeftChannel(room);
 
-	client_->SignOut();
+	m_client->SignOut();
 }
 
 void Conductor::OnServerConnectionFailure() 
 {
-	main_wnd_->MessageBox("Error", ("Failed to connect to " + server_).c_str(),
+	m_main_wnd->MessageBox("Error", ("Failed to connect to " + m_server).c_str(),
 		true);
 }
 
@@ -439,19 +439,19 @@ void Conductor::OnMessageFromChannel(const AString &room, const UInt32 &a_FromID
 			return;
 		}
 
-		main_wnd_->OnUserJoinChannel(room, a_FromID);
+		m_main_wnd->OnUserJoinChannel(room, a_FromID);
 
 		//发送订阅消息
 		Json::StyledWriter writer;
 		Json::Value jmessage;
 
 		jmessage[kSessionDescriptionTypeName] = "subscribe";
-		jmessage["clientID"] = client_->GetID();
+		jmessage["clientID"] = m_client->GetID();
 		SendMessage(clientID,writer.write(jmessage));
 	}
 	else if (type == "offline" || type == "unpublisher")
 	{
-		main_wnd_->OnUserLeftChannel(room, a_FromID);
+		m_main_wnd->OnUserLeftChannel(room, a_FromID);
 
 		int clientID;
 		if (!rtc::GetIntFromJsonObject(jmessage, "clientID",
@@ -535,7 +535,7 @@ void Conductor::OnMessageFromChannel(const AString &room, const UInt32 &a_FromID
 
 void Conductor::PostNotification(CString msg, COLORREF color /*= RGB(0, 0, 0)*/)
 {
-	main_wnd_->PostNotification(msg, color);
+	m_main_wnd->PostNotification(msg, color);
 }
 
 //
@@ -544,18 +544,18 @@ void Conductor::PostNotification(CString msg, COLORREF color /*= RGB(0, 0, 0)*/)
 
 void Conductor::DisconnectFromServer() 
 {
-	if (client_->is_connected())
-		client_->SignOut();
+	if (m_client->is_connected())
+		m_client->SignOut();
 }
 
 void Conductor::JoinChannel(const AString &server, const AString &room)
 {
-	client_->JoinChannel(server,room);
+	m_client->JoinChannel(server,room);
 }
 
 void Conductor::LeaveChannel(const AString &room)
 {
-	client_->LeaveChannel(room);
+	m_client->LeaveChannel(room);
 }
 
 
@@ -586,9 +586,9 @@ void Conductor::UIThreadCallback(int msg_id, void* data) {
 		LOG(INFO) << msg->msg.c_str();
 		if (msg)
 		{
-			if (client_->is_connected())
+			if (m_client->is_connected())
 			{
- 				if (!client_->SendToChannel(client_->GetChannel(),msg->id, msg->msg)) {
+ 				if (!m_client->SendToChannel(m_client->GetChannel(),msg->id, msg->msg)) {
  					LOG(LS_ERROR) << "SendToRoom failed";
  					DisconnectFromServer();
 				}
@@ -599,7 +599,7 @@ void Conductor::UIThreadCallback(int msg_id, void* data) {
 	}
 
 	case PEER_CONNECTION_ERROR:
-		main_wnd_->MessageBox("Error", "an unknown error occurred", true);
+		m_main_wnd->MessageBox("Error", "an unknown error occurred", true);
 		break;
 
 	case NEW_STREAM_ADDED:    //添加一路远端视频流 言梧栩
@@ -611,7 +611,7 @@ void Conductor::UIThreadCallback(int msg_id, void* data) {
 		if (!tracks.empty()) {
 			webrtc::VideoTrackInterface* track = tracks[0];
 			rtc::scoped_refptr<PCObserver> pc = pcObservers_[msg->id];
-			if (msg->id != client_->GetID() &&  pc)
+			if (msg->id != m_client->GetID() &&  pc)
 			{
 				pc->StartRenderer(track);
 			}
@@ -643,12 +643,12 @@ void Conductor::UIThreadCallback(int msg_id, void* data) {
 
 LRESULT Conductor::OnNetwork(WPARAM wParam, LPARAM lParam)
 {
-	return client_->OnNetwork(wParam, lParam);
+	return m_client->OnNetwork(wParam, lParam);
 }
 
 void Conductor::SetLocalRender(Renderer *render)
 {
-	rtc::scoped_refptr<PCObserver> pc = pcObservers_[client_->GetID()];
+	rtc::scoped_refptr<PCObserver> pc = pcObservers_[m_client->GetID()];
 	if (pc)
 	{
 		pc->RegisterRenderer(render);

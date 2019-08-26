@@ -1,17 +1,6 @@
-
 // ByteStream.h
-
 // Interfaces to the cByteBuffer class representing a ringbuffer of bytes
-
-
-
-
-
 #pragma once
-
-
-
-
 
 /** An object that can store incoming bytes and lets its clients read the bytes sequentially
 The bytes are stored in a ringbuffer of constant size; if more than that size

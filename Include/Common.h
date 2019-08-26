@@ -4,7 +4,6 @@
 // 任何其他项目上不应定义此符号。这样，源文件中包含此文件的任何其他项目都会将
 // MEDIA_API 函数视为是从 DLL 导入的，而此 DLL 则将用此宏定义的
 // 符号视为是被导出的。
-
 #pragma once
 
 #ifdef COMMON_EXPORTS
@@ -36,11 +35,6 @@ COMMON_API void LOGERROR(const char * a_Format, ...) FORMATSTRING(1, 2);
 #endif  // _DEBUG
 
 #define LOGWARN LOGWARNING
-
-
-
-
-
 
 // Common definitions:
 

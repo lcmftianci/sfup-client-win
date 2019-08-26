@@ -118,6 +118,6 @@ bool cIsThread::Wait(void)
 		}
 	}
 
-	LOGD("Thread %s finished", m_ThreadName.c_str());
+	LOGD("Thread %s finished" << m_ThreadName.c_str());
 	return true;
 }

@@ -1,1 +1,54 @@
-﻿
+﻿  stdafx.cpp
+d:\vsproject\sfup-client-win\include\globals.h(196): warning C4005: “NOMINMAX”: 宏重定义
+  d:\vsproject\sfup-client-win\include\globals.h(196): note: 命令行参数: 参见前面的“NOMINMAX”定义
+d:\vsproject\sfup-client-win\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  md5.cpp
+d:\vsproject\sfup-client-win\client\md5.cpp(139): warning C4244: “参数”: 从“std::streamsize”转换到“std::size_t”，可能丢失数据
+  main.cpp
+  func.cpp
+d:\vsproject\sfup-client-win\client\func.cpp(11): warning C4389: “!=”: 有符号/无符号不匹配
+d:\vsproject\sfup-client-win\client\func.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+  defaults.cpp
+d:\vsproject\sfup-client-win\client\defaults.cpp(41): warning C4244: “初始化”: 从“time_t”转换到“long”，可能丢失数据
+  conductor.cpp
+  aboutMe.cpp
+  WebConstructor.cpp
+  VideoRenderer.cpp
+  VideoPusher.cpp
+  VideoDialog.cpp
+d:\vsproject\sfup-client-win\client\videodialog.cpp(72): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\vsproject\sfup-client-win\client\videodialog.cpp(74): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+d:\vsproject\sfup-client-win\client\videodialog.cpp(78): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\vsproject\sfup-client-win\client\videodialog.cpp(80): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  TrayIcon.cpp
+d:\vsproject\sfup-client-win\client\trayicon.cpp(160): warning C4189: “hOwnerWnd”: 局部变量已初始化但不引用
+  X509Cert.cpp
+  SslContext.cpp
+  Sha1Checksum.cpp
+  RsaPrivateKey.cpp
+  EntropyContext.cpp
+  CtrDrbgContext.cpp
+  CryptoKey.cpp
+  CallbackSslContext.cpp
+  BufferedSslContext.cpp
+  正在生成代码...
+  正在编译...
+  AesCfb128Encryptor.cpp
+  AesCfb128Decryptor.cpp
+  Packetizer.cpp
+  PCObserver.cpp
+  MainFrame.cpp
+d:\vsproject\sfup-client-win\client\mainframe.cpp(50): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  JoinRoom.cpp
+  IniFile.cpp
+  DesktopCapturer.cpp
+  ConnectionClient.cpp
+d:\vsproject\sfup-client-win\client\connectionclient.cpp(146): warning C4189: “serverIp”: 局部变量已初始化但不引用
+  ByteBuffer.cpp
+  BtVideoDialog.cpp
+  正在生成代码...
+LINK : warning LNK4199: 已忽略 /DELAYLOAD:dbghelp.dll；未找到来自 dbghelp.dll 的导入
+LINK : warning LNK4199: 已忽略 /DELAYLOAD:dwmapi.dll；未找到来自 dwmapi.dll 的导入
+LINK : warning LNK4199: 已忽略 /DELAYLOAD:uxtheme.dll；未找到来自 uxtheme.dll 的导入
+  Client.vcxproj -> D:\VSProject\sfup-client-win\Debug\Client.exe
+  Client.vcxproj -> D:\VSProject\sfup-client-win\Debug\Client.pdb (Full PDB)

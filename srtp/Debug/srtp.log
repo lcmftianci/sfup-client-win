@@ -1,1 +1,27 @@
-﻿
+﻿  srtp.c
+  ekt.c
+  rand_source.c
+  prng.c
+  ctr_prng.c
+  ut_sim.c
+  rdbx.c
+  rdb.c
+  stat.c
+  datatypes.c
+  key.c
+  err.c
+  crypto_kernel.c
+  alloc.c
+  sha1.c
+  null_auth.c
+  hmac.c
+  auth.c
+  null_cipher.c
+  cipher.c
+  正在生成代码...
+  正在编译...
+  aes_icm.c
+  aes_cbc.c
+  aes.c
+  正在生成代码...
+  srtp.vcxproj -> D:\VSProject\sfup-client-win\Debug\srtp.lib

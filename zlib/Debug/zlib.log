@@ -1,1 +1,30 @@
-﻿
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project 'D:/develop/monitor_all/trunk/server/ZERO_CHECK.vcxproj' does not exist.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  D:\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: 参见“write”的声明
+  D:\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(521): note: 参见“read”的声明
+  D:\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: 参见“open”的声明
+gzwrite.c(101): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  D:\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(556): note: 参见“write”的声明
+gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  D:\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: 参见“close”的声明
+gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  D:\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: 参见“close”的声明
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(D:\VSProject\sfup-client-win\Debug\zlib.lib) does not match the Library's OutputFile property value (D:\VSProject\sfup-client-win\Lib\Debug\zlib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  zlib.vcxproj -> D:\VSProject\sfup-client-win\Debug\zlib.lib
